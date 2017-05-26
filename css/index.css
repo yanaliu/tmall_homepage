@@ -1,0 +1,142 @@
+.top {
+    width: 100%;
+    height: 32px;
+    background-color: #f2f2f2;
+    border-bottom:1px solid #ccc;
+}
+.top .wrapper {
+    width: 1230px;
+    height: 100%;
+    margin:0 auto;
+}
+.top .wrapper .reg {
+    float: left;
+    height: 100%;
+}
+.top .wrapper .reg>li {
+    height: 100%;
+    float: left;
+    line-height: 32px;
+    color: #afa499;
+}
+.top .wrapper .reg>li>a {
+    display: inline-block;
+    color: #afa499;
+    height: 100%;
+    padding: 0 10px;
+}
+.top .wrapper .reg>li:hover>a {
+    color:red;
+}
+.top .wrapper .myT {
+    float: right;
+}
+.top .wrapper .myT>li {
+    height: 100%;
+    float: left;
+    line-height: 32px;
+    color: #afa499;
+}
+.top .wrapper .myT>li>a {
+    display: inline-block;
+    color: #afa499;
+    height: 100%;
+    padding: 0 10px;
+    /*padding-right:10px;*/
+}
+.top .wrapper .myT>li:hover>a {
+    color:red;
+}
+.top .wrapper .underLine:hover>a {
+    /*color: red;*/
+    background-color: #fff;
+    text-decoration: underline;
+}
+.top .wrapper .underLine>a>span {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: 3px solid #f2f2f2;
+    border-top:3px solid #bbbbbb;
+    margin-left: 3px;
+    transition: all 0.5s;
+}
+.top .wrapper .underLine:hover>a>span {
+    /*color: red;*/
+    border: 3px solid #f2f2f2;
+    border-bottom:3px solid #bbbbbb;
+}
+.top .wrapper .myT .underLine {
+    position: relative;
+}
+
+.top .wrapper  .underLine .myInfo {
+    border: 1px solid #f2f2f2;
+    width: 80px;
+    padding:8px;
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 32px;
+    line-height:18px;
+    /*overflow: hidden;*/
+}
+.top .wrapper .myT .underLine .support {
+    left: -60px;
+}
+.top .wrapper .myT .underLine .myInfo a {
+    color: #afa499;
+}
+.top .wrapper .myT .underLine .myInfo a:hover {
+    color: red;
+    text-decoration: underline;
+}
+.top .wrapper .underLine:hover .myInfo {
+    display: block;
+}
+.top .wrapper .myT .underLine .support {
+    width: 120px;
+}
+.top .wrapper .myT .underLine .support dl {
+    padding:5px 0;
+    border-bottom: 1px dotted #000;
+}
+.top .wrapper .myT .underLine .support dt {
+    font-weight:bold;
+    font-size: 14px;
+    color: #000;
+}
+.top .wrapper .myT .underLine .support dd {
+    line-height: 18px;
+    float: left;
+
+    /*width: 50px;*/
+}
+.top .wrapper .myT .underLine .support dd:nth-child(even) {
+    margin-right: 20px;
+}
+/*.top .wrapper .myT .underLine .myInfo>li {
+    display: block;
+}
+.top .wrapper .myT .underLine .myInfo>li>a {
+    display: inline-block;
+    color: #afa499;
+    !*line-height: 20px;*!
+    position: absolute;
+    left: 0;
+    !*bottom: -32px;*!
+    background-color: #fff;
+}*/
+/*.top .wrapper .myT>li {*/
+    /*float: left;*/
+/*}*/
+.search {
+    height: 100px;
+    width: 100%;
+    background-color: red;
+}
+.nav {
+    height: 536px;
+    background-color: blue;
+}
